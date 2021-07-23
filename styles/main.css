@@ -1,0 +1,108 @@
+/* 
+===============================
+========== Variables ==========
+===============================
+*/
+
+:root {
+	/* Colores Primarios */
+	--Soft-red: hsl(7, 99%, 70%);
+	--Yellow: hsl(51, 100%, 49%);
+	--Dark-desaturated-cyan: hsl(167, 40%, 24%); /*(graphic design text)*/
+	--Dark-blue: hsl(198, 62%, 26%); /*(photography text)*/
+	--Dark-moderate-cyan: hsl(168, 34%, 41%); /*(footer)*/
+
+	/* Colores neutrales */
+	--Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+	--Very-dark-grayish-blue: hsl(213, 9%, 39%);
+	--Dark-grayish-blue: hsl(232, 10%, 55%);
+	--Grayish-blue: hsl(210, 4%, 67%);
+	--White: hsl(0, 0%, 100%);
+
+	/* Fuentes */
+	--ff-primary: "Barlow", sans-serif;
+	--ff-secondary: "Fraunces", serif;
+
+	/* Body copy */
+	--font-size: 18px;
+
+	--transition: all 0.3s linear;
+}
+
+/* 
+======================================
+========== Estilos globales ==========
+======================================
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: var(--ff-secondary);
+}
+
+/*
+======================================= 
+========== Estilos generales ==========
+=======================================
+*/
+
+/*========== header ==========*/
+header {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	/* justify-content: space-around; */
+	width: 100%;
+	min-width: 375px;
+	height: 538px;
+	text-align: center;
+	background: url(../images/mobile/image-header.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.nav-header {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 20px 75px 20px;
+}
+
+.menu {
+	display: none;
+}
+
+.nav-toggle {
+	font-size: 1.5rem;
+	color: var(--White);
+	background: transparent;
+	border-color: transparent;
+	transition: var(--transition);
+	cursor: pointer;
+}
+
+.nav-toggle:hover {
+	transform: rotate(90deg);
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	text-transform: uppercase;
+	font-size: 4rem;
+	letter-spacing: 0.6rem;
+	color: var(--White);
+}
+
+.header--arrow {
+	width: 3.8rem;
+	height: 11.8rem;
+	align-self: center;
+	margin-top: 6rem;
+}
