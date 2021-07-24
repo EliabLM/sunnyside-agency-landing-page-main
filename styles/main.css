@@ -52,12 +52,12 @@ html {
 =======================================
 */
 
-/*========== header ==========*/
+/* ========== header ========== */
 header {
+	/* outline: 1px solid; */
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	/* justify-content: space-around; */
 	width: 100%;
 	min-width: 375px;
 	height: 538px;
@@ -68,22 +68,20 @@ header {
 	background-position: center;
 }
 
+/* ===== Navbar ===== */
 nav {
-	margin: 30px 50px;
+	/* outline: 1px solid; */
+	margin: 35px 30px 75px 30px;
 }
+
 .nav-header {
+	/* outline: 1px solid white; */
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 75px;
 }
 
 .logo {
 	cursor: pointer;
-}
-
-.links,
-.cta {
-	display: none;
 }
 
 .nav-toggle {
@@ -100,7 +98,14 @@ nav {
 	transform: rotate(90deg);
 }
 
+.links,
+.cta {
+	display: none;
+}
+
+/* ===== Titulo ===== */
 h1 {
+	/* outline: 1px solid black; */
 	display: flex;
 	justify-content: center;
 	text-transform: uppercase;
@@ -109,9 +114,25 @@ h1 {
 	color: var(--White);
 }
 
+/* ===== Arrow ===== */
 .header--arrow {
+	/* outline: 1px solid; */
 	width: 3.8rem;
 	height: 11.8rem;
 	align-self: center;
 	margin-top: 6rem;
+}
+
+/* ===== Primera seccion ===== */
+
+/* ============================ */
+/* ========== Footer ========== */
+/* ============================ */
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
 }

@@ -25,6 +25,10 @@
 		margin: 30px 50px;
 	}
 
+	/* h1 {
+		max-width: 320px;
+	} */
+
 	.links {
 		display: flex;
 		height: auto;
