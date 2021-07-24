@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,500&family=Fraunces:wght@700;900&display=swap">
   <link rel="stylesheet" href="./styles/main.css">
-  <link rel="stylesheet" href="./styles/desktop.css" media="(min-width: 930px)">
+  <link rel="stylesheet" href="./styles/desktop.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 
@@ -36,18 +36,27 @@
     <nav>
       <!-- nav header -->
       <div class="nav-header">
-        <img src="./images/logo.svg" alt="Logotipo">
+        <img class="logo" src="./images/logo.svg" alt="Logotipo">
         <button class="nav-toggle">
           <i class="fas fa-bars"></i>
         </button>
       </div>
       <!-- links -->
-      <ul class="menu">
-        <li class="menu-item">About</li>
-        <li class="menu-item">Services</li>
-        <li class="menu-item">Projects</li>
-        <li class="menu-item">Contact</li>
+      <ul class="links">
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Services</a>
+        </li>
+        <li>
+          <a href="#">Projects</a>
+        </li>
       </ul>
+      <!-- Contacto -->
+      <a class="cta" href="#">
+        <button>Contact</button>
+      </a>
     </nav>
     <!-- title -->
     <h1>We are creatives</h1>

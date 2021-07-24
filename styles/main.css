@@ -68,17 +68,26 @@ header {
 	background-position: center;
 }
 
+nav {
+	margin: 30px 50px;
+}
 .nav-header {
 	display: flex;
 	justify-content: space-between;
-	margin: 30px 20px 75px 20px;
+	margin-bottom: 75px;
 }
 
-.menu {
+.logo {
+	cursor: pointer;
+}
+
+.links,
+.cta {
 	display: none;
 }
 
 .nav-toggle {
+	border: none;
 	font-size: 1.5rem;
 	color: var(--White);
 	background: transparent;
