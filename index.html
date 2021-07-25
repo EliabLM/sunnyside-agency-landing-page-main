@@ -4,72 +4,94 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- Fuentes -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,500&family=Fraunces:wght@700;900&display=swap">
+
+  <!-- Estilos -->
   <link rel="stylesheet" href="./styles/main.css">
-  <!-- <link rel="stylesheet" href="./styles/desktop.css"> -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+  <link rel="stylesheet" href="./styles/desktop.css">
+
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 </head>
 
 <body>
 
+  <img class="mockup-mobile" src="./design/mobile-design.jpg" alt="">
+  <img src="./design/desktop-design.jpg" alt="" class="mockup-desktop">
+  <!-- <img src="./design/mobile-menu.jpg" alt="" class="mockup-mobile"> -->
+
   <header>
+
+    
     <!-- navbar -->
     <nav>
-      <!-- nav header -->
-      <div class="nav-header">
-        <img class="logo" src="./images/logo.svg" alt="Logotipo">
-        <button class="nav-toggle">
-          <i class="fas fa-bars"></i>
-        </button>
+      
+      <img src="./images/logo.svg" alt="Logo" class="logo-icon">
+      <div class="menu">
+        <div class="triangle"></div>
+        <div class="links">
+          <ul>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Services</a>
+            </li>
+            <li>
+              <a href="#">Projects</a>
+            </li>
+          </ul>
+          <div class="btn">Contact</div>
+        </div>
       </div>
-      <!-- links -->
-      <ul class="links">
-        <li>
-          <a href="#">About</a>
-        </li>
-        <li>
-          <a href="#">Services</a>
-        </li>
-        <li>
-          <a href="#">Projects</a>
-        </li>
-      </ul>
-      <!-- Contacto -->
-      <a class="cta" href="#">
-        <button>Contact</button>
-      </a>
+      <img src="./images/icon-hamburger.svg" alt="hamburguer" class="hamburguer">
+      
     </nav>
-    <!-- title -->
-    <h1>We are creatives</h1>
-    <!-- arrow -->
-    <img class="header--arrow" src="./images/icon-arrow-down.svg" alt="flecha">
+    
+    <!-- header main -->
+    <div class="header-main">
+      <!-- header images -->
+      <img src="./images/mobile/image-header.jpg" alt="header image mobile" class="img-header-mobile">
+      <img src="./images/desktop/image-header.jpg" alt="header image desktop" class="img-header-desktop">
+
+      <!-- header title -->
+      <div class="header-title">
+        <h1>We are creatives</h1>
+        <!-- arrow -->
+        <img src="./images/icon-arrow-down.svg" alt="flecha">
+      </div>
+    </div>
+
+    
   </header>
 
   <main class="container">
 
     <!-- Primera seccion -->
-    <section class="primera">
+    <!-- <section class="primera">
       <div class="primera-imagen"></div>
       <div class="primera-texto">
         <h2>
-          Transform your brand
+          Transform your<br> brand
         </h2>
         <p>
           We are a full-service creative agency specializing in helping brands grow fast.
           Engage your clients through compelling visuals that do most of the marketing for you.
         </p>
         <h3>
-          Learn more
+          <a href="#">Learn more</a>
         </h3>
       </div>
-    </section>
+    </section> -->
 
     <!-- Segunda seccion -->
-    <section class="segunda">
+    <!-- <section class="segunda">
       <div class="segunda-imagen"></div>
       <div class="segunda-texto">
         <h2>
@@ -83,10 +105,10 @@
           Learn more
         </h3>
       </div>
-    </section>
+    </section> -->
 
     <!-- Tercera seccion -->
-    <section class="tercera">
+    <!-- <section class="tercera">
       <h2>
         Graphic design
       </h2>
@@ -94,26 +116,26 @@
         Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential
         clients’ attention.
       </p>
-    </section>
+    </section> -->
 
     <!-- Cuarta seccion -->
-    <section class="cuarta">
+    <!-- <section class="cuarta">
       <h2>
         Photography
       </h2>
       <p>
         Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
       </p>
-    </section>
+    </section> -->
 
     <!-- Quinta seccion -->
-    <section class="quinta">
+    <!-- <section class="quinta">
       <h2>
         Client testimonials
-      </h2>
+      </h2> -->
 
       <!-- testimonio 1 -->
-      <div class="quinta-testimonio1">
+      <!-- <div class="quinta-testimonio1">
         <img src="./images/image-emily.jpg" alt="Emily">
         <p>
           We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
@@ -124,10 +146,10 @@
         <h4>
           Marketing Director
         </h4>
-      </div>
+      </div> -->
 
       <!-- testimonio 2 -->
-      <div class="quinta-testimonio2">
+      <!-- <div class="quinta-testimonio2">
         <img src="./images/image-thomas.jpg" alt="Thomas">
         <p>
           Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable
@@ -139,10 +161,10 @@
         <h4>
           Chief Operating Officer
         </h4>
-      </div>
+      </div> -->
 
       <!-- testimonio 3 -->
-      <div class="quinta-testimonio3">
+      <!-- <div class="quinta-testimonio3">
         <img src="./images/image-jennie.jpg" alt="Jennie">
         <p>
           Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
@@ -154,19 +176,19 @@
           Business Owner
         </h4>
       </div>
-    </section>
+    </section> -->
 
     <!-- Sexta seccion -->
-    <section class="sexta">
+    <!-- <section class="sexta">
       <img src="./images/mobile/image-gallery-milkbottles.jpg" alt="milk bottles">
       <img src="./images/mobile/image-gallery-orange.jpg" alt="orange">
       <img src="./images/mobile/image-gallery-cone.jpg" alt="cone">
       <img src="./images/mobile/image-gallery-sugar-cubes.jpg" alt="sugar cubes">
-    </section>
+    </section> -->
 
   </main>
   
-  <footer>
+  <!-- <footer>
     <img src="./images/logo.svg" alt="Sunnyside Logo">
     <div class="footer-menu">
       <ul>
@@ -187,7 +209,7 @@
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Eliab López</a>.
     </div>
-  </footer>
+  </footer> -->
 
   <script src="./index.js"></script>
 </body>
