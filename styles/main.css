@@ -98,6 +98,18 @@ nav {
 	transform: rotate(90deg);
 }
 
+.hide {
+	opacity: 0.5;
+}
+
+.show-links {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	display: flex;
+}
+
 /* ========== header title ========== */
 .img-header-desktop {
 	display: none;
