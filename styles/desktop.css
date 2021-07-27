@@ -1,4 +1,5 @@
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 900px) {
+	/*min-width: 1440px*/
 	/* ===== mockups ===== */
 	.mockup-mobile {
 		display: none;
@@ -11,6 +12,9 @@
 	/* ===== navbar ===== */
 	nav {
 		padding: 3.5rem 5rem 1rem 4rem;
+		/* top: 5; */
+		/* left: 4; */
+		height: 10rem;
 	}
 
 	.logo-icon {
@@ -19,6 +23,59 @@
 
 	.menu {
 		display: flex;
+		position: static;
+	}
+
+	.triangle {
+		display: none;
+	}
+
+	.links {
+		/* outline: 1px solid; */
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		background-color: transparent;
+	}
+
+	.links ul {
+		display: flex;
+		flex-direction: row;
+		gap: 5.2rem;
+		list-style: none;
+	}
+
+	.links a {
+		font-size: 1.7rem;
+		text-decoration: none;
+		color: var(--White);
+	}
+
+	.links a:hover {
+		text-decoration: underline;
+	}
+
+	.show-links {
+		display: none;
+	}
+
+	.btn {
+		font-family: var(--ff-secondary);
+		font-size: 1.5rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		padding: 1.8rem 3rem;
+		background-color: var(--White);
+		border-radius: 3rem;
+		margin-left: 5rem;
+		margin-top: 0;
+		cursor: pointer;
+		color: var(--Very-dark-desaturated-blue);
+	}
+
+	.btn:hover {
+		background-color: rgba(255, 255, 255, 0.3);
+		color: var(--White);
 	}
 
 	.hamburguer {
