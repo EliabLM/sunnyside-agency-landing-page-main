@@ -1,5 +1,4 @@
-@media screen and (min-width: 900px) {
-	/*min-width: 1440px*/
+@media screen and (min-width: 800px) {
 	/* ===== mockups ===== */
 	.mockup-mobile {
 		display: none;
@@ -9,11 +8,10 @@
 		display: block;
 	}
 
+	/* ========== HEADER ========== */
 	/* ===== navbar ===== */
 	nav {
 		padding: 3.5rem 5rem 1rem 4rem;
-		/* top: 5; */
-		/* left: 4; */
 		height: 10rem;
 	}
 
@@ -31,7 +29,6 @@
 	}
 
 	.links {
-		/* outline: 1px solid; */
 		display: flex;
 		flex-direction: row;
 		align-items: center;
@@ -103,73 +100,5 @@
 		margin-top: 9rem;
 	}
 
-	/* header {
-		height: 800px;
-		background: url(../images/desktop/image-header.jpg);
-		background-size: 100%;
-		background-repeat: no-repeat;
-	} */
-
-	/* header li,
-	header a {
-		font-family: var(--ff-primary);
-		font-size: 16px;
-		color: var(--White);
-		text-decoration: none;
-	} */
-
-	/* .nav-header {
-		margin: 0px auto 0px 0px;
-	} */
-
-	/* nav {
-		display: flex;
-		justify-content: flex-end;
-		align-items: center;
-		margin: 30px 50px;
-	} */
-
-	/* h1 {
-		max-width: 320px;
-	} */
-
-	/* .links {
-		display: flex;
-		height: auto;
-		padding: 0;
-		list-style: none;
-	} */
-
-	/* .links li {
-		display: inline-block;
-		padding: 0px 20px;
-	} */
-
-	/* .logo {
-		margin-right: auto;
-	} */
-
-	/* .cta button {
-		font-family: var(--ff-secondary);
-		margin-left: 20px;
-		text-transform: uppercase;
-		font-weight: bold;
-		padding: 18px 28px;
-		border-radius: 50px;
-		border: none;
-		cursor: pointer;
-	} */
-
-	/* .cta button:hover {
-		color: var(--White);
-		background: rgba(0, 0, 0, 0.1);
-	} */
-
-	/* .nav-toggle {
-		display: none;
-	} */
-
-	/* .cta {
-		display: inline;
-	} */
+	/* ========== SECCION 1 ========== */
 }

@@ -71,9 +71,9 @@ body {
 =======================================
 */
 
+/* ========== HEADER ========== */
 /* ========== navbar ========== */
 nav {
-	/* outline: 1px solid; */
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -103,7 +103,6 @@ nav {
 }
 
 .show-links {
-	/* outline: 1px solid; */
 	position: absolute;
 	top: 8rem;
 	left: 6%;
@@ -123,7 +122,6 @@ nav {
 }
 
 .links {
-	/* outline: 1px solid; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -186,7 +184,6 @@ nav {
 }
 
 .header-title {
-	/* outline: 1px solid; */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -212,121 +209,82 @@ h1 {
 	margin-top: 5rem;
 }
 
-/* header {
+/* ========== SECCION 1 ========== */
+
+.primera {
+	width: 100%;
+}
+
+.primera img {
+	width: 100%;
+}
+
+.primera-texto {
+	outline: 1px solid;
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	width: 100%;
-	min-width: 375px;
-	height: 538px;
-	text-align: center;
-	background: url(../images/mobile/image-header.jpg);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-} */
-
-/* ===== Navbar ===== */
-/* nav {
-	margin: 35px 30px 75px 30px;
-}
-
-.nav-header {
-	display: flex;
-	justify-content: space-between;
-}
-
-.logo {
-	cursor: pointer;
-}
-
-.nav-toggle {
-	border: none;
-	font-size: 1.5rem;
-	color: var(--White);
-	background: transparent;
-	border-color: transparent;
-	transition: var(--transition);
-	cursor: pointer;
-}
-
-.nav-toggle:hover {
-	transform: rotate(90deg);
-}
-
-.links,
-.cta {
-	display: none;
-} */
-
-/* ===== Titulo ===== */
-/* h1 {
-	display: flex;
 	justify-content: center;
-	text-transform: uppercase;
-	font-size: 4rem;
-	letter-spacing: 0.6rem;
-	color: var(--White);
-} */
-
-/* ===== Arrow ===== */
-/* .header--arrow {
-	width: 3.8rem;
-	height: 11.8rem;
-	align-self: center;
-	margin-top: 6rem;
-} */
-
-/* ===== Primera seccion ===== */
-/* .primera {
-	outline: 1px solid;
-	display: flex;
-	flex-direction: column;
-	height: 750px;
+	align-items: center;
 	width: 100%;
-	min-width: 375px;
-} */
+	padding: 6rem 3rem 6.5rem 3rem;
+}
 
-/* .primera-imagen {
+.primera-texto h2 {
+	font-family: var(--ff-secondary);
+	font-size: 3.3rem;
+	text-align: center;
+	color: var(--Very-dark-desaturated-blue);
+}
+
+.primera-texto p {
+	margin-top: 2.2rem;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 3rem;
+	color: var(--Dark-grayish-blue);
+}
+
+.primera-texto h3 {
+	margin-top: 2.2rem;
+}
+
+.primera-texto a {
+	font-size: 1.7rem;
+	font-family: var(--ff-secondary);
+	font-weight: 900;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: var(--Very-dark-desaturated-blue);
+}
+
+.primera-btn {
 	outline: 1px solid;
-	height: 45%;
-	background: url(../images/mobile/image-transform.jpg);
-	background-size: 100%;
-	background-repeat: no-repeat;
-} */
-
-/* .primera-texto {
+	width: 50%;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
-	height: 55%;
-	background-color: var(--White);
-	text-align: center;
-} */
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	padding: 10px;
+}
 
-/* .primera-texto h2 {
-	outline: 1px solid;
-	font-weight: 700;
-	font-size: 3.5rem;
-	color: var(--Very-dark-desaturated-blue);
-} */
+.line-decoration {
+	width: 90%;
+	height: 7px;
+	transform: translateY(-7px);
+	z-index: -1;
+	border-radius: 5px;
+	/* background-color: var(--Yellow); */
+	background-color: hsla(51, 100%, 49%, 0.5);
+	transition: var(--transition);
+}
 
-/* .primera-texto p {
-	outline: 1px solid;
-	padding: 0px 20px;
-	font-family: var(--ff-primary);
-	font-size: 1.8rem;
-	font-weight: 600;
-	line-height: 30px;
-	color: var(--Dark-grayish-blue);
-} */
-
-/* .primera-texto h3 a {
-	font-size: 1.8rem;
-	text-transform: uppercase;
-	color: var(--Very-dark-desaturated-blue);
-	text-decoration-color: var(--Yellow);
-} */
+.line-decoration:hover {
+	width: 100%;
+	background-color: var(--Yellow);
+}
 
 /* ============================ */
 /* ========== Footer ========== */
