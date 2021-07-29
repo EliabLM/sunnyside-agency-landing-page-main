@@ -116,7 +116,7 @@
 	}
 
 	.primera-texto {
-		outline: 1px solid;
+		/* outline: 1px solid; */
 		padding: 6rem 10rem;
 	}
 
@@ -149,5 +149,65 @@
 
 	.primera-texto h3 {
 		margin-top: 0px;
+	}
+
+	/* ========== Seccion 2 ========== */
+	.segunda-img-desktop {
+		display: block;
+	}
+
+	.segunda-img-mobile {
+		display: none;
+	}
+
+	.segunda {
+		display: flex;
+	}
+
+	.segunda-texto {
+		/* outline: 1px solid; */
+		padding: 6rem 10rem;
+	}
+
+	.segunda-texto h2 {
+		/* outline: 1px solid; */
+		font-size: 4.2rem;
+		text-align: left;
+		padding: 2rem 1rem 2rem 1rem;
+	}
+
+	.segunda-texto p {
+		/* outline: 1px solid; */
+		margin-top: 0rem;
+		padding: 1rem 7rem 2.5rem 1rem;
+		text-align: left;
+	}
+
+	.segunda-btn {
+		align-self: flex-start;
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+		padding: 2rem 1.8rem 3rem 1.8rem;
+	}
+
+	.segunda-texto a {
+		/* outline: 1px solid; */
+		align-self: flex-start;
+		margin-top: 0rem;
+		font-size: 1.7rem;
+		font-family: var(--ff-secondary);
+		font-weight: 900;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: var(--Very-dark-desaturated-blue);
+	}
+
+	.segunda-line-decoration {
+		align-self: flex-start;
+		width: 56%;
 	}
 }

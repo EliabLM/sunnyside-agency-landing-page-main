@@ -285,6 +285,70 @@ h1 {
 }
 
 /* ========== Seccion 2 ========== */
+.segunda-img-desktop {
+	display: none;
+}
+
+.segunda-img-mobile {
+	width: 100%;
+}
+
+.segunda-texto {
+	/* outline: 1px solid; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 6rem 3rem;
+}
+
+.segunda-texto h2 {
+	font-family: var(--ff-secondary);
+	font-size: 3.3rem;
+	text-align: center;
+	color: var(--Very-dark-desaturated-blue);
+}
+
+.segunda-texto p {
+	margin-top: 2.2rem;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 3rem;
+	color: var(--Dark-grayish-blue);
+}
+
+.segunda-btn {
+	/* outline: 1px solid; */
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	padding: 10px;
+}
+
+.segunda-texto a {
+	margin-top: 2.4rem;
+	font-size: 1.7rem;
+	font-family: var(--ff-secondary);
+	font-weight: 900;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: var(--Very-dark-desaturated-blue);
+}
+
+.segunda-line-decoration {
+	width: 90%;
+	height: 7px;
+	transform: translateY(-7px);
+	z-index: -1;
+	border-radius: 5px;
+	background-color: hsla(7, 99%, 70%, 0.5);
+	transition: var(--transition);
+}
 
 /* ============================ */
 /* ========== Footer ========== */
