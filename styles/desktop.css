@@ -101,4 +101,53 @@
 	}
 
 	/* ========== SECCION 1 ========== */
+	.primera-img-mobile {
+		display: none;
+	}
+
+	.primera-img-desktop {
+		display: block;
+	}
+
+	.primera {
+		/* outline: 1px solid; */
+		display: flex;
+		flex-direction: row-reverse;
+	}
+
+	.primera-texto {
+		outline: 1px solid;
+		padding: 6rem 10rem;
+	}
+
+	.primera-texto h2 {
+		/* outline: 1px solid; */
+		line-height: 5rem;
+		font-size: 4.2rem;
+		text-align: left;
+		padding: 4rem 6rem 2rem 6.2rem;
+	}
+
+	.primera-texto p {
+		/* outline: 1px solid; */
+		padding: 1.5rem 2rem 2rem 6.7rem;
+		margin-top: 0;
+		text-align: left;
+	}
+
+	.primera-btn {
+		/* outline: 1px solid; */
+		align-self: flex-start;
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+		padding: 2rem 5rem 4rem 5rem;
+	}
+
+	.primera-texto h3 {
+		margin-top: 0px;
+	}
 }

@@ -215,19 +215,23 @@ h1 {
 	width: 100%;
 }
 
-.primera img {
+.primera-img-mobile {
 	width: 100%;
 }
 
+.primera-img-desktop {
+	display: none;
+}
+
 .primera-texto {
-	outline: 1px solid;
+	/* outline: 1px solid; */
 	position: relative;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	padding: 6rem 3rem 6.5rem 3rem;
+	padding: 6rem 3rem 5rem 3rem;
 }
 
 .primera-texto h2 {
@@ -260,7 +264,7 @@ h1 {
 }
 
 .primera-btn {
-	outline: 1px solid;
+	/* outline: 1px solid; */
 	width: 50%;
 	display: flex;
 	flex-direction: column;
@@ -276,15 +280,14 @@ h1 {
 	transform: translateY(-7px);
 	z-index: -1;
 	border-radius: 5px;
-	/* background-color: var(--Yellow); */
 	background-color: hsla(51, 100%, 49%, 0.5);
 	transition: var(--transition);
 }
 
-.line-decoration:hover {
+/* .line-decoration:hover {
 	width: 100%;
 	background-color: var(--Yellow);
-}
+} */
 
 /* ============================ */
 /* ========== Footer ========== */
