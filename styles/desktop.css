@@ -210,4 +210,51 @@
 		align-self: flex-start;
 		width: 56%;
 	}
+
+	/* ========== Seccion 3 ========== */
+	.tercera {
+		outline: 1px solid;
+		width: 100%;
+		display: flex;
+	}
+
+	/* graphic design */
+	.tercera-img-mobile-graphic {
+		display: none;
+	}
+
+	.tercera-img-desktop-graphic {
+		display: block;
+		opacity: 0.5;
+	}
+
+	.tercera-text-graphic h2 {
+		/* outline: 1px solid; */
+		padding: 4rem 2rem 0rem 2rem;
+	}
+
+	.tercera-text-graphic p {
+		/* outline: 1px solid; */
+		padding: 2rem 17rem 0rem 17rem;
+	}
+
+	/* photography */
+	.tercera-img-mobile-photography {
+		display: none;
+	}
+
+	.tercera-img-desktop-photography {
+		display: block;
+		opacity: 0.5;
+	}
+
+	.tercera-text-photography h2 {
+		/* outline: 1px solid; */
+		padding: 4rem 2rem 0rem 2rem;
+	}
+
+	.tercera-text-photography p {
+		/* outline: 1px solid; */
+		padding: 2rem 17rem 0rem 17rem;
+	}
 }
